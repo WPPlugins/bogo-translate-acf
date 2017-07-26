@@ -1,0 +1,37 @@
+=== Bogo translate ACF ===
+Contributors: jensnilsson
+Tags: custom fields, translation
+Requires at least: 3.5
+Tested up to: 3.6.0
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This plugins works like a bridge between Bogo and Advanced Custom Fields to allow for translation of your Advanced Custom Fields with Bogo.
+
+== Description ==
+
+This plugins works like a bridge between Bogo and Advanced Custom Fields to allow for translation of your Advanced Custom Fields with Bogo. Supports both Repeater and Flexible Content field-addons.
+
+== Installation ==
+
+1. Upload `bogo-translate-acf` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Make sure you have both Bogo and ACF/ACF-lite activated
+1. Translate your ACF-fields with ease!
+
+== Changelog ==
+
+= 1.0 =
+* Fixed Flexible Content support.
+
+= 0.1 =
+* Inital release.
+
+== Upgrade Notice ==
+
+= 1.0 =
+Fixed Flexible Content field class-reference type (Flexible content is now translateable)
+
+= 0.1 =
+Initial Release.
